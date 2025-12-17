@@ -24,3 +24,9 @@ class GraphBuilder:
         self.graph.set_finish_point("content_generator")
 
         return self.graph
+    
+    def setup_graph(self, usecase):
+        if usecase == "topic":
+            graph = self.build_topic_graph()
+
+        return graph.compile()
