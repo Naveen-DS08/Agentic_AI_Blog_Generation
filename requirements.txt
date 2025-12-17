@@ -6,4 +6,4 @@ pydantic
 fastapi
 uvicorn
 watchdog
-langchain-cli[inmem]
+langgraph-cli[inmem]
